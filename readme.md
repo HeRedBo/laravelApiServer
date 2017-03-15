@@ -5,6 +5,7 @@
 ## 1. 部署说明
 
 > 现有API基于laravel框架开发，本次介绍也针对laravel。可根据文档自行调整，以适用其他框架下使用
+>
 > 项目原地址：https://github.com/flc1125/ApiServer
 
 ### 1.1. 数据库相关
