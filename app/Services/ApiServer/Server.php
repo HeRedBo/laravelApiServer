@@ -90,7 +90,7 @@ class Server
         $v = Validator::make($this->params, $rules, $messages);
         if($v->fails())
         {
-            return  $thisk->response(['status' => false,'code' => $v->message()->first()]);
+            return  $this->response(['status' => false,'code' => $v->message()->first()]);
         }
 
         // A.2  赋值对象
